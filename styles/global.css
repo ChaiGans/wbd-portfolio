@@ -26,6 +26,10 @@
   background-color: black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   padding: 80px 0 80px 0;
 }

@@ -30,8 +30,14 @@
 }
 
 .story-card p {
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
+}
+
+.stories-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* 48em = 768px */
@@ -55,5 +61,15 @@
   .story-card img {
     width: 70%;
     max-width: 800px;
+  }
+
+  .story-card p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .stories-wrapper {
+    gap: 6rem;
   }
 }
