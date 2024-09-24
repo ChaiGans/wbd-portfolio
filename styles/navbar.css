@@ -1,9 +1,9 @@
 .header {
-  background-color: #b21518;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  z-index: 3;
+  background-color: #000;
+  z-index: 1000;
 }
 
 .header ul {
@@ -30,7 +30,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  color: #b21518;
+  color: var(--primary-color);
 }
 
 .header .logo {
