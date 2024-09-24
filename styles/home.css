@@ -126,4 +126,26 @@
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+  .home {
+    margin-top: 50px;
+    flex-direction: row;
+    padding: 0 70px 0 70px;
+  }
+
+  .profile-image {
+    width: 70%;
+  }
+
+  .profile-details {
+    width: 100%;
+    text-align: start;
+  }
+
+  .profile-details button {
+    place-self: start;
+  }
+
+  .profile-details .socmeds {
+    place-self: start;
+  }
 }

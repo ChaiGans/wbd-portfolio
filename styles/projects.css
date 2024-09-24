@@ -3,6 +3,13 @@
   flex-direction: column;
   position: relative;
   padding-top: 70px;
+  gap: 2rem;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .projects h2 {
@@ -40,6 +47,17 @@
 
 .project-card img {
   border-radius: 15px 15px 0 0;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-card label {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project-card p {
+  min-height: 60px;
 }
 
 .buttons {
@@ -48,4 +66,23 @@
   justify-content: space-around;
   margin-top: 15px;
   gap: 1rem;
+}
+
+.buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .project-cards {
+    width: 100%;
+    gap: 4rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
