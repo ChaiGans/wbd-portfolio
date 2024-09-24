@@ -16,6 +16,19 @@
   text-align: center;
 }
 
+.info h2 {
+  font-size: 24px;
+}
+
+.info label {
+  font-size: 20px;
+}
+
+.info .date {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
 /* Card container */
 .card {
   position: relative;
@@ -60,7 +73,7 @@
 @media (min-width: 48em) {
   .activities {
     flex-direction: row;
-    justify-content: center;
-    gap: 10rem;
+    justify-content: space-evenly;
+    align-items: start;
   }
 }

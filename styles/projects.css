@@ -4,3 +4,48 @@
   position: relative;
   padding-top: 70px;
 }
+
+.projects h2 {
+  margin-top: 10px;
+}
+
+.projects label {
+  font-size: 14px;
+}
+
+.projects p {
+  font-size: 8px;
+  padding: 10px 20px 10px 20px;
+}
+
+.projects button {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 0 20px 0;
+  border: solid white;
+  border-width: 1px;
+  border-radius: 15px;
+  width: 95%;
+  max-width: 350px;
+  margin-top: 10px;
+}
+
+.project-card img {
+  border-radius: 15px 15px 0 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+  gap: 1rem;
+}

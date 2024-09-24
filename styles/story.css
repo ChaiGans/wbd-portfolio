@@ -1,0 +1,35 @@
+.stories {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.stories h1 {
+  margin-bottom: 20px;
+}
+
+.story-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.story-card img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .story-card {
+    flex-direction: row;
+  }
+}

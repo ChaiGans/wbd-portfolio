@@ -1,0 +1,22 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 70px;
+}
+
+.skills .skills-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.skills .skills-images img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  object-position: center;
+}
