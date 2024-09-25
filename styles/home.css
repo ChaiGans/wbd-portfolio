@@ -19,7 +19,7 @@
   background-color: white;
   border-radius: 100%;
   position: relative;
-  background-image: url("../assets/additional/Photo_Elbert\ Chailes.jpg");
+  background-image: url("../assets/additional/Photo_Elbert\ Chailes.webp");
   background-size: cover;
   background-position: center;
 }
@@ -33,7 +33,7 @@
   right: 0;
   bottom: 0;
   border-radius: 100%;
-  background-image: url("../assets/additional/yuuji.jpeg");
+  background-image: url("../assets/additional/yuuji.webp");
   background-size: cover;
   background-position: center;
   opacity: 0;
