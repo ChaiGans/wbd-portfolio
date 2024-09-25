@@ -21,6 +21,27 @@
   background-image: url("../assets/additional/Photo_Elbert\ Chailes.jpg");
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+}
+
+.image-overlay {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+  background-image: url("../assets/additional/yuuji.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.profile-image:hover .image-overlay {
+  opacity: 1;
 }
 
 .profile-details {
